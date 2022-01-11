@@ -11,7 +11,7 @@ const outputPath = path.join(OUTPUT_DIR, "new.html");
 
 // to render an html file -> to create file using these prompts
 // look up how to do
-const render
+const render = require("./lib/htmlRender");
 
 // Questions that apply to all employees
 const questions = [
